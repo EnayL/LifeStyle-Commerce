@@ -21,7 +21,8 @@
                 <h1>Resell Academy</h1>
                 <h2>Bienvenue !</h2>
                 <div class="form">
-                    <form method="{{ 'POST' }}" action="{{ '/register' }}" enctype="multipart/form-data">
+                    <form action="{{ route('register-user') }}" method="{{ 'POST' }}"
+                        enctype="multipart/form-data">
                         @csrf
                         <input type="text" name="lastname" placeholder='Nom' class="name" id='name' required><br>
                         <input type="text" name="name" placeholder='Prénom' class="lastname" id='lasttname'

@@ -17,15 +17,16 @@
             <h1>Resell Academy</h1>
             <h2>Bienvenue !</h2>
             <div class="form">
-                <form action="/home" method="post">
-                    <input type="text" placeholder='Pseudo' class="username" id='username' required><br>
-                    <input type="password" placeholder='••••••••••' class='password'><br><br>
+                <form method="{{ 'POST' }}" action="{{ route('login-user') }}">
+                    @csrf
+                    <input type="text" placeholder='Pseudo' class="username" id='username' required name="pseudo"><br>
+                    <input type="password" placeholder='••••••••••' class='password' name="password"><br><br>
                     <button class="logg" type="submit" value="login">Login</button>
-                    <a href="/reset" class='forgot'>Forgot?</a>
+                    <a href="{{ '/reset' }}" class='forgot'>Forgot?</a>
                 </form>
             </div>
             <div class="register">
-                <p class="createaccount">Devenez membre! <a href="/register">Créer un compte</a></p>
+                <p class="createaccount">Devenez membre! <a href={{ '/register' }}>Créer un compte</a></p>
             </div>
         </div>
 

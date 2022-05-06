@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    @extends('layout.header_connect')
+    @extends('layout.header-connect')
     @section('content')
         <div class="contenairglobal">
 

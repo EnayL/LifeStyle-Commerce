@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegisterController;
-
-
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\LogoutController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,13 +15,31 @@ use App\Http\Controllers\RegisterController;
 |
 */
 
+
+//afficher la page login
+Route::get('/login', function () {
+    return view('login');
+});
+
+//Envoyer un form de login avec la methode store 
+Route::post('/login', [LoginController::class, 'authenticate'])->name("login-user");
+
+
+//afficher la page register
+Route::get('/register', function () {
+    return view('register');
+});
+
+// Envoyer un form de register avec la methode store 
+Route::post('/register', [RegisterController::class, 'store'])->name("register-user");
+
+
+// afficher /home
 Route::get('/home', function () {
     return view('home');
 });
 
 
-// Envoyer un form de register avec la methode store 
-Route::post('/register', [RegisterController::class, 'store']);
 
-//  Envoyer un form de login avec la methode store 
-Route::post('/login', [LoginController::class, 'authenticate']);
+// se déconnecter
+Route::post('/home', [LogoutController::class, 'logout']);

@@ -15,8 +15,8 @@
         <div class="globalblock">
 
             <div class="block1">
-                <a href="register" class="identifier">Rejoignez-nous</a>
-                <a href="login" class="identifier2">S'identifier</a>
+                <a href="{{ '/register' }}" class="identifier">Rejoignez-nous</a>
+                <a href="{{ '/login' }}" class="identifier2">S'identifier</a>
             </div>
 
             <div class="block2">

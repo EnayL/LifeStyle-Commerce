@@ -22,8 +22,7 @@ class RegisterController extends Controller
             'name' => 'required|min:3|max:15',
             'pseudo' => 'required',
             'email' => 'required',
-            'password' => 'required|max:20|min:7',
-
+            'password' => 'required|min:7',
         ]);
 
         $validation['password'] = Hash::make($request->password);
