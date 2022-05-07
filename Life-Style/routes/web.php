@@ -39,6 +39,30 @@ Route::get('/home', function () {
 });
 
 
+// afficher /home
+Route::get('/homebis', function () {
+    return view('homebis');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // se déconnecter
 Route::post('/home', [LoginController::class, 'logout']);

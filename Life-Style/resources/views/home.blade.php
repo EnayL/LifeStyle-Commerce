@@ -15,33 +15,61 @@
     @section('content')
         <div class="contenairglobal">
 
-
+            <section class="slide">
             <div class="grille1">
-                <div class="grid-item1"></div>
-                <div class="grid-item2"></div>
-                <div class="grid-item3"></div>
-            </div>
-
-
-            <div class="grille2">
-                <div class="grid-item5"></div>
-                <div class="grid-contenair1">
-                    <div class="grid-item6"></div>
-                    <div class="grid-item7"></div>
+                <div class="grid-item1">
+                    <img src="../image/image1.png">
+                </div>
+                <div class="grid-item1">
+                    <img src="../image/image2.jpeg">
+                </div>
+                <div class="grid-item1">
+                    <img src="../image/nikelaylow.jpeg">
                 </div>
             </div>
+            </section>
 
+            <section class="style">
+            <div class="grille2">
+                <div class="grid-item5">
+                    <img src="../image/shoot2.jpg">
+                </div>
+                <div class="grid-contenair1">
+                    <div class="grid-item6">
+                        <img src="../image/shoot1" >
+                    </div>
+                    <div class="grid-item6">
+                        <img src="../image/laylow3.jpg">
+                    </div>
+                </div>
+            </div>
+            </section>
+
+            <section class="style2">
             <div class="grille3">
-                <div class="grid-item8"></div>
-                <div class="grid-item9"></div>
+                <div class="grid-item8">
+                    <img src="../image/aj1.jpg">
+                </div>
+                <div class="grid-item8">
+                    <img src="../image/adidasxnike.jpg">
+                </div>
             </div>
+            </section>
 
+            <section class="sneakers">
             <div class="grille4">
-                <div class="grid-item10"></div>
-                <div class="grid-item11"></div>
-                <div class="grid-item12"></div>
-            </div>
+                <div class="grid-item10">
+                    <img src="../image/aj1RoyalBlue.jpg">
+                </div>
+                <div class="grid-item10">
+                <img src="../image/wabisabi.jpg">
+                </div>
+                <div class="grid-item10">
+                    <img src="../image/aj4offwhite.jpg">
 
+                </div>
+            </div>
+             </section>
         </div>
 
 
