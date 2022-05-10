@@ -4,7 +4,7 @@ Bonjour et Bienvenu sur mon Projet Laravel :
 
 #Life-Style Blog  
 
-Ce projet a été réalisé seul afin de développer et élargir mes compétence dans le back-end d'où le fait que le front-end ne soit pas trés soigné/designé.
+Ce projet a été réalisé pendant mon temps de cours et temps libre, seul afin de développer et élargir mes compétence dans le back-end d'où le fait que le front-end ne soit pas trés soigné/designé.
 
 ## Objectif : 
 
