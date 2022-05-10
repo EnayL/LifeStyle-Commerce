@@ -126,3 +126,7 @@ input::placeholder {
     cursor: pointer;
     background-color: #e6fafa;
 }
+
+p {
+    font-size: 15px;
+}

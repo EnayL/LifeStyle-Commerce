@@ -1,0 +1,74 @@
+.contenairlogin {
+    background: #e6fafa;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    width: 40%;
+    padding-top: 2%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2),
+        0px 10px 20px rgba(0, 0, 0, 0.3), 0px 30px 60px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.contenair {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2%;
+}
+
+.contenair img {
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border: 2px solid black;
+    max-width: 80%;
+    width: 400px;
+    height: 300px;
+}
+.contenair p {
+    margin: 0%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Courier New", monospace;
+}
+
+.select {
+    margin-top: 4%;
+    width: 40%;
+    background-color: #dbfdfdda;
+    border-radius: 3px;
+    padding: 5px 2em;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.butn {
+    width: 30%;
+    margin-top: 2%;
+    border-radius: 3px;
+    padding: 5px 2em;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    background-color: #dbfdfdda;
+    justify-content: center;
+    margin-left: 35%;
+}
+
+.delete {
+    width: 30%;
+    margin-top: 2%;
+    border-radius: 3px;
+    padding: 5px 2em;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    margin-left: 35%;
+    background-color: rgb(255, 71, 71);
+}

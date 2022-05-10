@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Radio+Canada:wght@300&family=Raleway:wght@100&family=Titillium+Web:wght@300&display=swap");
+* {
+    margin: 0%;
+}
+
+body {
+    font-family: "Titillium Web", sans-serif;
+    color: black;
+}
+
+.slide p {
+    color: black;
+}
+
+#slider {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff5d;
+    margin-top: 5%;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.subcontainer {
+    width: 85%;
+    margin: auto;
+}
+
+.controller {
+    display: flex;
+    justify-content: space-between;
+}
+
+#controls i {
+    color: black;
+    font-size: 1rem;
+}
+
+.previous,
+.next {
+    padding: 2px;
+    width: 30px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.7s ease-in-out;
+    border: 3px solid black;
+    background-color: black;
+    box-shadow: 0 0 5px #bbb;
+    transition: 0.7s ease-in-out;
+}
+
+.previous:hover,
+.next:hover {
+    border: 3px solid gray;
+}
+
+.slide-img {
+    width: 100%;
+    height: 275px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.slide-img:hover {
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.685) inset;
+}
+
+.slide-img a {
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1.5rem;
+    color: white;
+    opacity: 0;
+}
+
+.slide-img:hover a {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.img-1 {
+    background-image: url("../image/image1.png");
+}
+
+.img-2 {
+    background-image: url("../image/image2.jpeg");
+}
+
+.img-3 {
+    background-image: url("../image/laylow3.jpg");
+}
+@media (max-width: 1600px) {
+    .contenair {
+        width: 50%;
+    }
+}
+
+.slide a:link {
+    color: rgb(255, 255, 255);
+}
+
+/* visited link */
+.slide a:visited {
+    color: rgb(255, 255, 255);
+}
+
+/* mouse over link */
+.slide a:hover {
+    color: rgb(124, 124, 124);
+    text-decoration: underline;
+}
+
+/* selected link */
+.slide a:active {
+    color: rgb(124, 124, 124);
+    text-decoration: underline;
+}

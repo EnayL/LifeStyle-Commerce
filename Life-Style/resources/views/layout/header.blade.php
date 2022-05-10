@@ -11,9 +11,9 @@
 
             <div class="text">
 
-                <a href="" class="text">Sneakers</a>
+                <a href="{{ '/cataloguesneakers' }}" class="text">Sneakers</a>
                 <a href="{{ '/home' }}" class="text">Home</a>
-                <a href="" class="text">Rap Blog</a>
+                <a href="{{ '/lifestylerap' }}" class="text">Life Style & Rap</a>
                 <a href="" class="text">Paume.</a>
 
             </div>

@@ -20,7 +20,8 @@ class LoginController extends Controller
             return redirect('/home');
         }
         return back()->withErrors([
-            'pseudo' => 'The provided credentials do not match our records.',
+            'pseudo' => 'Le mot de passe et le mail saisis ne correspondent pas.',
+            'password' => 'Le mot de passe et le mail saisis ne correspondent pas.',
         ])->onlyInput('pseudo');
     }
 
